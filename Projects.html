@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <header>
+            <a href='#' class='Logo'>Logo</a>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="info">I have a few projects that I made recently. I will list them here one by one.</p>
+        <ul>
+       <li> <p class="info"><strong>Email App</strong></p>
+       </li>
+       <p style="padding-left:20px">This project of mine was made using Java and Spring. The application is aimed at sending and receiving encrypted mail. The main focus behind this is creating an app that can give
+           a little ray of privacy.
+       </p>
+       <li><p class="info"><strong>Portfolio</strong></li>
+        <p style="padding-left:20px">This project is the one you are currently viewing. This was made using HTML, CSS and vanilla javascript. This is just an attempt of mine to understand javascript better before I move on to React and NodeJS.</p>
+    <li><p class="info"><strong>Chatbot</strong></li>
+        <p style="padding-left:20px">I made a chatbot back in January 2020 as an attempt to understand NLP and deep learning. This was tough-the TF-IDF, LSTMs took some time to get through to my skull so that I could understand it.</p>
+    </ul>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header=document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY>0);
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <header>
+            <a href='#' class='Logo'>Logo</a>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header=document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY>0);
+            })
+        </script>
+    </body>
+</html>
